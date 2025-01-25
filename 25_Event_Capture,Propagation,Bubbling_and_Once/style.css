@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: violet;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    text-align: center;
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.GrandParent{
+    background-color: red;
+    width:600px;
+    height: 600px;
+}
+
+.parent{
+    background-color: yellow;
+    width:300px;
+    height: 300px;
+}
+
+.child{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}

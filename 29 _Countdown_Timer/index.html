@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown Timer</title>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <script src="./scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="timer">
+        <div class="timer__controls">
+            <button data-time="20" class="timer__button">20 Secs</button>
+            <button data-time="300" class="timer__button">Work 5</button>
+            <button data-time="900" class="timer__button">Quick 15</button>
+            <button data-time="1200" class="timer__button">Snack 20</button>
+            <button data-time="3600" class="timer__button">Lunch Break</button>
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Enter Minutes" style="font-family: 'Inconsolata', monospace;font-size: 2rem;">
+            </form>
+        </div>
+        <div class="display">
+            <h1 class="display__time-left">00:00</h1>
+            <p class="display__end-time">Click buttons or enter the minutes to start timer..</p>
+            <div>
+                <button class="timer__button stopbtn" data-flag="false">Stop</button>
+                <button class="timer__button resetbtn" >Reset</button>
+            </div>
+        </div>
+    </div>
+    <audio src="./alarm.mp3"></audio>
+    <audio src="./buttonClick.mp3" class="clickaudio"></audio>
+    <audio src="./microwave-ding-104123.mp3" class="ding"></audio>
+    Sound Credit :
+    
+    Sound Effect by <a href="https://pixabay.com/users/lesiakower-25701529/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=113180">Lesiakower</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=113180">Pixabay</a> 
+
+    and
+
+    Sound Effect by <a href="https://pixabay.com/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=140881">UNIVERSFIELD</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=140881">Pixabay</a></
+    
+   
+</body>
+
+</html>

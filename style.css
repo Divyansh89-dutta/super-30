@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #000000;
+   color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+    min-height:100vh;
+    width:auto;    
+}
+
+.header{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: #212121;
+}
+
+.sub-header{
+    margin: 20px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px 3px wheat;
+    text-align: center;
+}
+
+
+.main-heading{
+    font-size: 4em;
+    font-family: 'Agbalumo';
+}
+
+.header p{
+    font-size: 1.5em;
+    color: #c2c2c2;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header .link-section{
+    display: flex;
+    margin:20px 0;
+}
+
+.link-section img{
+    height: 40px;
+    width: 40px;
+}
+
+.part-two{
+    width:100%;
+    height: auto;
+    padding:10%;
+}
+
+
+/* lower part */
+
+.lower-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.oza{
+    height: 100px;
+    width: 300px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.oza:hover{
+    background: #2c2c2c;
+}
+.oza a{
+    text-decoration: none;
+    color: #c2c2c2;
+    padding: 10px;
+}
+
+.oza p{
+    font-size: 1.6em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.footer{
+    background: #212121;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.left-section{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 1.2em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.footer .js-img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer .mail-img{
+    height:45px;
+    width:45px;
+}
+
+.footer .contact a{
+    margin-left:10px;
+}
+
+::selection{
+    color:yellowgreen;
+    background: black;
+}
+
+@media screen and (max-width:650px) {
+    .sub-header{
+        width: 60%;
+        display: flex;
+    }
+    .main-heading{
+        font-size: 2em;
+    }
+    .header p{
+        font-size: 1.1em;
+    }
+    .oza{
+        height:50px;
+        width: 150px;
+    }
+
+    .oza p{
+        font-size: 1.1em;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer p{
+        font-size: 1em;
+    }
+}
